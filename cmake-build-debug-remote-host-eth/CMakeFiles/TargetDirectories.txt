@@ -1,0 +1,3 @@
+/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles/rebuild_cache.dir
+/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles/edit_cache.dir
+/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir
