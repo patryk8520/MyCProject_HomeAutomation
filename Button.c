@@ -5,7 +5,7 @@
 #include "button.h"
 #include <stdio.h>
 
-Button* button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum){
+void button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum){
     button->GPInum = GPInum;
     button->GPOnum = GPOnum;
     button->input = false;
@@ -15,7 +15,6 @@ Button* button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum){
     button->qTrigMem = false;
     button->Time = 0;
     button->clicks = 0;
-    button->qOut = LOW;
 
     button->getInput = getInput;
     button->toggle = toggle;
@@ -23,7 +22,6 @@ Button* button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum){
     bcm2835_gpio_fsel(button->GPInum, BCM2835_GPIO_FSEL_INPT);
     bcm2835_gpio_set_pud(button->GPInum, BCM2835_GPIO_PUD_DOWN);
 
-    return button;
 }
 
 void getInput(Button* button, uint64_t Curr_time){

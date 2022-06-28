@@ -10,8 +10,8 @@ uint8_t Parent_init(){
     if(!bcm2835_init()) return 1;
 
     // Init Outputs
-    bcm2835_gpio_fsel(LED, BCM2835_GPIO_FSEL_OUTP);
-    bcm2835_gpio_fsel(OUT1, BCM2835_GPIO_FSEL_OUTP);
+    bcm2835_gpio_fsel(outKUCHNIA, BCM2835_GPIO_FSEL_OUTP);
+    bcm2835_gpio_fsel(outLAZIENKA, BCM2835_GPIO_FSEL_OUTP);
 }
 
 uint8_t Child_init(){

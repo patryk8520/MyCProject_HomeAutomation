@@ -49,7 +49,7 @@ void forkmain(int sock) {
 
     printf("Here is the message: %s\n",buffer);
     printf("Here is the message: %d\n",atoi(buffer));
-    bcm2835_gpio_write(LED, atoi(buffer));
+    bcm2835_gpio_write(outKUCHNIA, atoi(buffer));
 
     rwstatus = write(sock,"RPi: Data OK......",18);
     printf("%u\n",rwstatus);

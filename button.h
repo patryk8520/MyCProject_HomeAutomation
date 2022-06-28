@@ -16,14 +16,13 @@ typedef struct sButton{
     bool LastBtnState;
     bool qButton;
     bool qTrig, qTrigMem;
-    bool qOut;
     uint64_t Time;
     uint8_t clicks;
     void (*getInput)(struct sButton* self, uint64_t Curr_time);
     void (*toggle)(struct sButton* self);
 } Button;
 
-Button* button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum);
+void button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum);
 
 void getInput(Button* button, uint64_t Curr_time);
 void toggle(Button* button);

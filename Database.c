@@ -13,16 +13,12 @@ const char* insert_climate(char* name, uint16_t temperatura, uint16_t wilgotnosc
     ts = *localtime(&seconds);
     strftime(timestamp, sizeof(timestamp), "%Y-%m-%d %H:%M", &ts);
     char val[3];
-    strcpy(str, "INSERT INTO ");
-    strcat(str, name);
+    strcpy(str, "INSERT INTO "); strcat(str, name);
     strcat(str, " VALUES (");
     sprintf(val, "%d", temperatura);
-    strcat(str, val);
-    strcat(str, ",");
-    sprintf(val, "%d", wilgotnosc);
-    strcat(str, val);
-    strcat(str, ",'");
-    strcat(str, timestamp);
+    strcat(str, val);  strcat(str, ",");
+    sprintf(val, "%d", wilgotnosc); strcat(str, val);
+    strcat(str, ",'"); strcat(str, timestamp);
     strcat(str, "');");
     return str;
 }

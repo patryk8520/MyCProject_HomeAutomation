@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.7)
 project(MyCProject)
 add_executable(MyCProject Definitions.h main.c ModbusRtu.c Subprograms.c
-sqlite/sqlite3.c sqlite/sqlite3.h dht11.c Socket.h Socket.c Button.c button.h dht11.h modbusRtu.h database.h Database.c)
+        sqlite/sqlite3.c sqlite/sqlite3.h dht11.c Socket.h Socket.c
+        Button.c button.h dht11.h modbusRtu.h database.h Database.c)
 
 include_directories(/usr/include/modbus)
 find_library(MyModbus modbus lib)

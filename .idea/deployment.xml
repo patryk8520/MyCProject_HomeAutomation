@@ -18,12 +18,11 @@
       <paths name="Remote Host Eth (cb77bf73-09c7-49cb-8c81-cc949b4fd611)">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/pi/Public/MyCProject" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/pi/Public/MyCProject/" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-remote-host-eth" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-remote-host-eth" />
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
           </excludedPaths>
         </serverdata>
       </paths>

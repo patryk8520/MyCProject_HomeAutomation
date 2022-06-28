@@ -79,53 +79,23 @@ int main() {
     Curr_time_ms = Curr_time_us / 1000;                     // Calculate ms curr time
     tTimer1 = tTimer2 = tTimer3 = tTimer4 = Curr_time_ms;   // init Timers
 
+    Button* button = calloc(12, sizeof(struct sButton));
 
-    Button* butt1 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt1, BTN1, LED);
-    Button* butt2 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt2, BTN2, OUT1);
-    Button* butt3 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt3, BTN3, LED);
-    Button* butt4 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt4, BTN4, LED);
-    Button* butt5 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt5, BTN5, LED);
-    Button* butt6 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt6, BTN6, LED);
-    Button* butt7 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt7, BTN7, LED);
-    Button* butt8 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt8, BTN8, LED);
-    Button* butt9 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt9, BTN9, LED);
-    Button* butt10 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt10, BTN10, LED);
-    Button* butt11 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt11, BTN11, LED);
-    Button* butt12 = calloc(1, sizeof(struct sButton));
-    button_constructor((Button*)butt12, BTN12, LED);
+    button_constructor(&button[KUCHNIA], inKUCHNIA1, outKUCHNIA);
+    button_constructor(&button[LAZIENKA], inKUCHNIA2, outKUCHNIA);
+    button_constructor(&button[SALON], inLAZIENKA1, outLAZIENKA);
 
     while(1){
         Curr_time_us = bcm2835_st_read();   // Read current time
         Curr_time_ms = Curr_time_us / 1000;
         // Parent program
         if(cpid > 0){
-            butt1->getInput(butt1, Curr_time_ms);
-            butt1->toggle(butt1);
-            butt2->getInput(butt2, Curr_time_ms);
-            butt2->toggle(butt2);
-            butt3->getInput(butt3, Curr_time_ms);
-            butt3->toggle(butt3);
-            butt4->getInput(butt4, Curr_time_ms);
-            butt4->toggle(butt4);
-            butt5->getInput(butt5, Curr_time_ms);
-            butt5->toggle(butt5);
-            butt6->getInput(butt6, Curr_time_ms);
-            butt6->toggle(butt6);
-            butt7->getInput(butt7, Curr_time_ms);
-            butt7->toggle(butt7);
-            butt8->getInput(butt8, Curr_time_ms);
-            butt8->toggle(butt8);
+            (&button[KUCHNIA])->getInput(&button[KUCHNIA], Curr_time_ms);
+            (&button[KUCHNIA])->toggle(&button[KUCHNIA]);
+            (&button[LAZIENKA])->getInput(&button[LAZIENKA], Curr_time_ms);
+            (&button[LAZIENKA])->toggle(&button[LAZIENKA]);
+            (&button[SALON])->getInput(&button[SALON], Curr_time_ms);
+            (&button[SALON])->toggle(&button[SALON]);
 
             if(CMS_qOnce){
                 CMS_qOnce = false;
@@ -168,17 +138,6 @@ int main() {
         // Read current time and calculate prg time
         EndPrgTime_us = bcm2835_st_read();
         if(EndPrgTime_us > tTimer3){
-            if(cpid == 0) {
-               /* if (EndPrgTime_us - Curr_time_us > maxtime) {
-                    maxtime = EndPrgTime_us - Curr_time_us;
-                    printf("\033[2J");
-                    printf("   Parent Prg Cycle time: %lld us \n", EndPrgTime_us - Curr_time_us);
-                }*/
-               ;
-            }
-            else {
-                ;
-            }
             tTimer3 = bcm2835_st_read();
         }
     }
