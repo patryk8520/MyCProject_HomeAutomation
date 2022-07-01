@@ -12,13 +12,14 @@ typedef struct sRtuConnection{
     uint16_t wilgotnosc;
     bool data_ok;
 
-    uint16_t (*modbusExecute)(struct sRtuConnection* self, modbus_t* ctx);
+    uint16_t (*modbusExecute)(struct sRtuConnection*, modbus_t* ctx);
 } RtuConnection;
 
-RtuConnection* sensor_constructor(RtuConnection* sensor, char* name);
+void sensor_constructor(RtuConnection*, char* name);
 
-uint16_t modbusExecute(RtuConnection* sensor, modbus_t* ctx);
-
+uint16_t modbusExecute(RtuConnection*, modbus_t* ctx);
+void ModbusPrintError();
+modbus_t* ModbusInit();
 
 
 #endif //MYCPROJECT_MODBUSRTU_H

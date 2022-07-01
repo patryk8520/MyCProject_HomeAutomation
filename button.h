@@ -18,13 +18,14 @@ typedef struct sButton{
     bool qTrig, qTrigMem;
     uint64_t Time;
     uint8_t clicks;
-    void (*getInput)(struct sButton* self, uint64_t Curr_time);
-    void (*toggle)(struct sButton* self);
+    void (*getInput)(struct sButton*, uint64_t);
+    void (*toggle)(struct sButton*);
 } Button;
 
-void button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum);
 
-void getInput(Button* button, uint64_t Curr_time);
-void toggle(Button* button);
+void button_constructor(Button*, uint8_t GPInum, uint8_t GPOnum);
+
+void getInput(Button*, uint64_t Curr_time);
+void toggle(Button*);
 
 #endif //MYCPROJECT_BUTTON_H

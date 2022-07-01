@@ -5,64 +5,64 @@
 #include "button.h"
 #include <stdio.h>
 
-void button_constructor(Button* button, uint8_t GPInum, uint8_t GPOnum){
-    button->GPInum = GPInum;
-    button->GPOnum = GPOnum;
-    button->input = false;
-    button->LastBtnState = false;
-    button->qButton = false;
-    button->qTrig = false;
-    button->qTrigMem = false;
-    button->Time = 0;
-    button->clicks = 0;
+void button_constructor(Button* this, uint8_t GPInum, uint8_t GPOnum){
+    this->GPInum = GPInum;
+    this->GPOnum = GPOnum;
+    this->input = false;
+    this->LastBtnState = false;
+    this->qButton = false;
+    this->qTrig = false;
+    this->qTrigMem = false;
+    this->Time = 0;
+    this->clicks = 0;
 
-    button->getInput = getInput;
-    button->toggle = toggle;
+    this->getInput = getInput;
+    this->toggle = toggle;
 
-    bcm2835_gpio_fsel(button->GPInum, BCM2835_GPIO_FSEL_INPT);
-    bcm2835_gpio_set_pud(button->GPInum, BCM2835_GPIO_PUD_DOWN);
+    bcm2835_gpio_fsel(this->GPInum, BCM2835_GPIO_FSEL_INPT);
+    bcm2835_gpio_set_pud(this->GPInum, BCM2835_GPIO_PUD_DOWN);
 
 }
 
-void getInput(Button* button, uint64_t Curr_time){
-    button->input = bcm2835_gpio_lev(button->GPInum);
-    if(button->input == button->LastBtnState){
-        if(button->input == HIGH){
-            if(button->Time + 50 < Curr_time){
-                button->qButton = true;
+void getInput(Button* this, uint64_t Curr_time){
+    this->input = bcm2835_gpio_lev(this->GPInum);
+    if(this->input == this->LastBtnState){
+        if(this->input == HIGH){
+            if(this->Time + 50 < Curr_time){
+                this->qButton = true;
             }
         }
-        else button->qButton = false;
+        else this->qButton = false;
     }
     else{
-        button->LastBtnState = button->input;
-        button->Time = bcm2835_st_read() / 1000;
-        button->clicks += 1;
+        this->LastBtnState = this->input;
+        this->Time = bcm2835_st_read() / 1000;
+        this->clicks += 1;
     }
 
-    if (button->qTrig == true) button->qTrig = false;
+    if (this->qTrig == true) this->qTrig = false;
 
-    if(button->qButton != button->qTrigMem){
-        if(button->qButton == true){
-            button->qTrig = true;
-            printf("BUTTON CLICKS: %u, ", button->clicks);
-            button->clicks = 0;
+    if(this->qButton != this->qTrigMem){
+        if(this->qButton == true){
+            this->qTrig = true;
+            printf("BUTTON CLICKS: %u, ", this->clicks);
+            this->clicks = 0;
         }
-        button->qTrigMem = button->qButton;
+        this->qTrigMem = this->qButton;
     }
 }
 
-void toggle(Button* button){
-    if(button->qTrig) {
-        if(bcm2835_gpio_lev(button->GPOnum) == LOW){
-            bcm2835_gpio_write(button->GPOnum, HIGH);
+void toggle(Button* this){
+    if(this->qTrig) {
+        if(bcm2835_gpio_lev(this->GPOnum) == LOW){
+            bcm2835_gpio_write(this->GPOnum, HIGH);
         }
         else {
-            bcm2835_gpio_write(button->GPOnum, LOW);
+            bcm2835_gpio_write(this->GPOnum, LOW);
         }
         printf("value out state: %u, GPO number: %d, GPI number: %d\n",
-               bcm2835_gpio_lev(button->GPOnum),
-               button->GPOnum,
-               button->GPInum);
+               bcm2835_gpio_lev(this->GPOnum),
+               this->GPOnum,
+               this->GPInum);
     }
 }

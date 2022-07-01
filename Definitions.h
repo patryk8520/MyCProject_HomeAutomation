@@ -15,13 +15,13 @@
 #include <time.h>
 #include <pthread.h>
 #include <modbus.h>
-#include "sqlite/sqlite3.h"
 #include <errno.h>
 #include <modbus.h>
 #include <fcntl.h>
 #include <netinet/in.h>		// inet_addr
 #include <sys/socket.h>
 #include <sys/types.h>
+#include <mysql/mysql.h>
 
 
 #define BTN4        RPI_BPLUS_GPIO_J8_15
@@ -43,7 +43,6 @@
 #define OUT8        RPI_BPLUS_GPIO_J8_38
 #define OUT9        RPI_BPLUS_GPIO_J8_40
 
-// I/O
 enum buttons{KUCHNIA, LAZIENKA, SALON};
 enum inputs{
     inKUCHNIA1 = RPI_BPLUS_GPIO_J8_07,
@@ -60,26 +59,4 @@ enum outputs{
 #define PORT 5001
 #define MAXMSGLENGTH 1024
 
-// CLIMATE Functions
-const char* insert_climate(char* name, uint16_t temperatura, uint16_t wilgotnosc);
-
-
-// Init functions
-uint8_t Parent_init();
-uint8_t Child_init();
-
-//Global variables
-extern modbus_t *ctx;
-extern sqlite3 *db;
-
-//pipe do not needed now
-//extern int pipefd[2];
-//Fork
-extern pid_t cpid;
-
-//SQLITE rc
-extern int rc;
-extern char *err;
-
-void ModbusPrintError();
 #endif //UNTITLED_DEFINITIONS_H

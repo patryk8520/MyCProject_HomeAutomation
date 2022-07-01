@@ -13,11 +13,11 @@ typedef struct sDht11{
     uint16_t temperatura;
     uint16_t wilgotnosc;
     bool data_ok;
-    uint8_t(*readData)(struct sDht11* self);
+    uint8_t(*readData)(struct sDht11*);
 } Dht11;
 
-Dht11* dht11_constructor(Dht11* dht11, char* name, uint8_t GPIOnum);
+void dht11_constructor(Dht11*, char* name, uint8_t GPIOnum);
 
-uint8_t readData(Dht11* dht11);
+uint8_t readData(Dht11*);
 
 #endif //MYCPROJECT_DHT11_H
