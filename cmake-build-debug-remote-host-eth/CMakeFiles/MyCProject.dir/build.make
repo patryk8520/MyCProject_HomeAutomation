@@ -105,9 +105,57 @@ CMakeFiles/MyCProject.dir/ModbusRtu.c.o.provides: CMakeFiles/MyCProject.dir/Modb
 CMakeFiles/MyCProject.dir/ModbusRtu.c.o.provides.build: CMakeFiles/MyCProject.dir/ModbusRtu.c.o
 
 
+CMakeFiles/MyCProject.dir/Subprograms.c.o: CMakeFiles/MyCProject.dir/flags.make
+CMakeFiles/MyCProject.dir/Subprograms.c.o: ../Subprograms.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MyCProject.dir/Subprograms.c.o"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyCProject.dir/Subprograms.c.o   -c /home/pi/Public/MyCProject/Subprograms.c
+
+CMakeFiles/MyCProject.dir/Subprograms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCProject.dir/Subprograms.c.i"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/Public/MyCProject/Subprograms.c > CMakeFiles/MyCProject.dir/Subprograms.c.i
+
+CMakeFiles/MyCProject.dir/Subprograms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCProject.dir/Subprograms.c.s"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/Public/MyCProject/Subprograms.c -o CMakeFiles/MyCProject.dir/Subprograms.c.s
+
+CMakeFiles/MyCProject.dir/Subprograms.c.o.requires:
+
+.PHONY : CMakeFiles/MyCProject.dir/Subprograms.c.o.requires
+
+CMakeFiles/MyCProject.dir/Subprograms.c.o.provides: CMakeFiles/MyCProject.dir/Subprograms.c.o.requires
+	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/Subprograms.c.o.provides.build
+.PHONY : CMakeFiles/MyCProject.dir/Subprograms.c.o.provides
+
+CMakeFiles/MyCProject.dir/Subprograms.c.o.provides.build: CMakeFiles/MyCProject.dir/Subprograms.c.o
+
+
+CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o: CMakeFiles/MyCProject.dir/flags.make
+CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o: ../sqlite/sqlite3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o   -c /home/pi/Public/MyCProject/sqlite/sqlite3.c
+
+CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.i"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/Public/MyCProject/sqlite/sqlite3.c > CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.i
+
+CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.s"
+	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/Public/MyCProject/sqlite/sqlite3.c -o CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.s
+
+CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.requires:
+
+.PHONY : CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.requires
+
+CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.provides: CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.requires
+	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.provides.build
+.PHONY : CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.provides
+
+CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.provides.build: CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o
+
+
 CMakeFiles/MyCProject.dir/dht11.c.o: CMakeFiles/MyCProject.dir/flags.make
 CMakeFiles/MyCProject.dir/dht11.c.o: ../dht11.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MyCProject.dir/dht11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MyCProject.dir/dht11.c.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyCProject.dir/dht11.c.o   -c /home/pi/Public/MyCProject/dht11.c
 
 CMakeFiles/MyCProject.dir/dht11.c.i: cmake_force
@@ -131,7 +179,7 @@ CMakeFiles/MyCProject.dir/dht11.c.o.provides.build: CMakeFiles/MyCProject.dir/dh
 
 CMakeFiles/MyCProject.dir/Socket.c.o: CMakeFiles/MyCProject.dir/flags.make
 CMakeFiles/MyCProject.dir/Socket.c.o: ../Socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MyCProject.dir/Socket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MyCProject.dir/Socket.c.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyCProject.dir/Socket.c.o   -c /home/pi/Public/MyCProject/Socket.c
 
 CMakeFiles/MyCProject.dir/Socket.c.i: cmake_force
@@ -155,7 +203,7 @@ CMakeFiles/MyCProject.dir/Socket.c.o.provides.build: CMakeFiles/MyCProject.dir/S
 
 CMakeFiles/MyCProject.dir/Button.c.o: CMakeFiles/MyCProject.dir/flags.make
 CMakeFiles/MyCProject.dir/Button.c.o: ../Button.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MyCProject.dir/Button.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MyCProject.dir/Button.c.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyCProject.dir/Button.c.o   -c /home/pi/Public/MyCProject/Button.c
 
 CMakeFiles/MyCProject.dir/Button.c.i: cmake_force
@@ -179,7 +227,7 @@ CMakeFiles/MyCProject.dir/Button.c.o.provides.build: CMakeFiles/MyCProject.dir/B
 
 CMakeFiles/MyCProject.dir/Database.c.o: CMakeFiles/MyCProject.dir/flags.make
 CMakeFiles/MyCProject.dir/Database.c.o: ../Database.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MyCProject.dir/Database.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MyCProject.dir/Database.c.o"
 	/usr/bin/gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyCProject.dir/Database.c.o   -c /home/pi/Public/MyCProject/Database.c
 
 CMakeFiles/MyCProject.dir/Database.c.i: cmake_force
@@ -205,6 +253,8 @@ CMakeFiles/MyCProject.dir/Database.c.o.provides.build: CMakeFiles/MyCProject.dir
 MyCProject_OBJECTS = \
 "CMakeFiles/MyCProject.dir/main.c.o" \
 "CMakeFiles/MyCProject.dir/ModbusRtu.c.o" \
+"CMakeFiles/MyCProject.dir/Subprograms.c.o" \
+"CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o" \
 "CMakeFiles/MyCProject.dir/dht11.c.o" \
 "CMakeFiles/MyCProject.dir/Socket.c.o" \
 "CMakeFiles/MyCProject.dir/Button.c.o" \
@@ -215,6 +265,8 @@ MyCProject_EXTERNAL_OBJECTS =
 
 MyCProject: CMakeFiles/MyCProject.dir/main.c.o
 MyCProject: CMakeFiles/MyCProject.dir/ModbusRtu.c.o
+MyCProject: CMakeFiles/MyCProject.dir/Subprograms.c.o
+MyCProject: CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o
 MyCProject: CMakeFiles/MyCProject.dir/dht11.c.o
 MyCProject: CMakeFiles/MyCProject.dir/Socket.c.o
 MyCProject: CMakeFiles/MyCProject.dir/Button.c.o
@@ -223,7 +275,7 @@ MyCProject: CMakeFiles/MyCProject.dir/build.make
 MyCProject: /usr/local/lib/libmodbus.so
 MyCProject: /usr/local/lib/libbcm2835.a
 MyCProject: CMakeFiles/MyCProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable MyCProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/Public/MyCProject/cmake-build-debug-remote-host-eth/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable MyCProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyCProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +285,8 @@ CMakeFiles/MyCProject.dir/build: MyCProject
 
 CMakeFiles/MyCProject.dir/requires: CMakeFiles/MyCProject.dir/main.c.o.requires
 CMakeFiles/MyCProject.dir/requires: CMakeFiles/MyCProject.dir/ModbusRtu.c.o.requires
+CMakeFiles/MyCProject.dir/requires: CMakeFiles/MyCProject.dir/Subprograms.c.o.requires
+CMakeFiles/MyCProject.dir/requires: CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o.requires
 CMakeFiles/MyCProject.dir/requires: CMakeFiles/MyCProject.dir/dht11.c.o.requires
 CMakeFiles/MyCProject.dir/requires: CMakeFiles/MyCProject.dir/Socket.c.o.requires
 CMakeFiles/MyCProject.dir/requires: CMakeFiles/MyCProject.dir/Button.c.o.requires
