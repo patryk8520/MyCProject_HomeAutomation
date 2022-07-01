@@ -5,7 +5,6 @@ CMakeFiles/MyCProject.dir/Button.c.o
  /home/pi/Public/MyCProject/Button.c
  /home/pi/Public/MyCProject/Definitions.h
  /home/pi/Public/MyCProject/button.h
- /home/pi/Public/MyCProject/sqlite/sqlite3.h
  /usr/include/modbus/modbus-rtu.h
  /usr/include/modbus/modbus-tcp.h
  /usr/include/modbus/modbus-version.h
@@ -14,7 +13,6 @@ CMakeFiles/MyCProject.dir/Database.c.o
  /home/pi/Public/MyCProject/Database.c
  /home/pi/Public/MyCProject/Definitions.h
  /home/pi/Public/MyCProject/database.h
- /home/pi/Public/MyCProject/sqlite/sqlite3.h
  /usr/include/modbus/modbus-rtu.h
  /usr/include/modbus/modbus-tcp.h
  /usr/include/modbus/modbus-version.h
@@ -23,7 +21,6 @@ CMakeFiles/MyCProject.dir/ModbusRtu.c.o
  /home/pi/Public/MyCProject/Definitions.h
  /home/pi/Public/MyCProject/ModbusRtu.c
  /home/pi/Public/MyCProject/modbusRtu.h
- /home/pi/Public/MyCProject/sqlite/sqlite3.h
  /usr/include/modbus/modbus-rtu.h
  /usr/include/modbus/modbus-tcp.h
  /usr/include/modbus/modbus-version.h
@@ -32,15 +29,6 @@ CMakeFiles/MyCProject.dir/Socket.c.o
  /home/pi/Public/MyCProject/Definitions.h
  /home/pi/Public/MyCProject/Socket.c
  /home/pi/Public/MyCProject/Socket.h
- /home/pi/Public/MyCProject/sqlite/sqlite3.h
- /usr/include/modbus/modbus-rtu.h
- /usr/include/modbus/modbus-tcp.h
- /usr/include/modbus/modbus-version.h
- /usr/include/modbus/modbus.h
-CMakeFiles/MyCProject.dir/Subprograms.c.o
- /home/pi/Public/MyCProject/Definitions.h
- /home/pi/Public/MyCProject/Subprograms.c
- /home/pi/Public/MyCProject/sqlite/sqlite3.h
  /usr/include/modbus/modbus-rtu.h
  /usr/include/modbus/modbus-tcp.h
  /usr/include/modbus/modbus-version.h
@@ -49,7 +37,6 @@ CMakeFiles/MyCProject.dir/dht11.c.o
  /home/pi/Public/MyCProject/Definitions.h
  /home/pi/Public/MyCProject/dht11.c
  /home/pi/Public/MyCProject/dht11.h
- /home/pi/Public/MyCProject/sqlite/sqlite3.h
  /usr/include/modbus/modbus-rtu.h
  /usr/include/modbus/modbus-tcp.h
  /usr/include/modbus/modbus-version.h
@@ -62,10 +49,7 @@ CMakeFiles/MyCProject.dir/main.c.o
  /home/pi/Public/MyCProject/dht11.h
  /home/pi/Public/MyCProject/main.c
  /home/pi/Public/MyCProject/modbusRtu.h
- /home/pi/Public/MyCProject/sqlite/sqlite3.h
  /usr/include/modbus/modbus-rtu.h
  /usr/include/modbus/modbus-tcp.h
  /usr/include/modbus/modbus-version.h
  /usr/include/modbus/modbus.h
-CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o
- /home/pi/Public/MyCProject/sqlite/sqlite3.c

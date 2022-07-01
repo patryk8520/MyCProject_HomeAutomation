@@ -104,9 +104,6 @@
 		<Unit filename="/home/pi/Public/MyCProject/Socket.h">
 			<Option target="MyCProject"/>
 		</Unit>
-		<Unit filename="/home/pi/Public/MyCProject/Subprograms.c">
-			<Option target="MyCProject"/>
-		</Unit>
 		<Unit filename="/home/pi/Public/MyCProject/button.h">
 			<Option target="MyCProject"/>
 		</Unit>
@@ -123,12 +120,6 @@
 			<Option target="MyCProject"/>
 		</Unit>
 		<Unit filename="/home/pi/Public/MyCProject/modbusRtu.h">
-			<Option target="MyCProject"/>
-		</Unit>
-		<Unit filename="/home/pi/Public/MyCProject/sqlite/sqlite3.c">
-			<Option target="MyCProject"/>
-		</Unit>
-		<Unit filename="/home/pi/Public/MyCProject/sqlite/sqlite3.h">
 			<Option target="MyCProject"/>
 		</Unit>
 		<Unit filename="/home/pi/Public/MyCProject/CMakeLists.txt">

@@ -231,33 +231,6 @@ Socket.c.s:
 	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/Socket.c.s
 .PHONY : Socket.c.s
 
-Subprograms.o: Subprograms.c.o
-
-.PHONY : Subprograms.o
-
-# target to build an object file
-Subprograms.c.o:
-	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/Subprograms.c.o
-.PHONY : Subprograms.c.o
-
-Subprograms.i: Subprograms.c.i
-
-.PHONY : Subprograms.i
-
-# target to preprocess a source file
-Subprograms.c.i:
-	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/Subprograms.c.i
-.PHONY : Subprograms.c.i
-
-Subprograms.s: Subprograms.c.s
-
-.PHONY : Subprograms.s
-
-# target to generate assembly for a file
-Subprograms.c.s:
-	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/Subprograms.c.s
-.PHONY : Subprograms.c.s
-
 dht11.o: dht11.c.o
 
 .PHONY : dht11.o
@@ -312,33 +285,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/main.c.s
 .PHONY : main.c.s
 
-sqlite/sqlite3.o: sqlite/sqlite3.c.o
-
-.PHONY : sqlite/sqlite3.o
-
-# target to build an object file
-sqlite/sqlite3.c.o:
-	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o
-.PHONY : sqlite/sqlite3.c.o
-
-sqlite/sqlite3.i: sqlite/sqlite3.c.i
-
-.PHONY : sqlite/sqlite3.i
-
-# target to preprocess a source file
-sqlite/sqlite3.c.i:
-	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.i
-.PHONY : sqlite/sqlite3.c.i
-
-sqlite/sqlite3.s: sqlite/sqlite3.c.s
-
-.PHONY : sqlite/sqlite3.s
-
-# target to generate assembly for a file
-sqlite/sqlite3.c.s:
-	$(MAKE) -f CMakeFiles/MyCProject.dir/build.make CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.s
-.PHONY : sqlite/sqlite3.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -360,18 +306,12 @@ help:
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"
-	@echo "... Subprograms.o"
-	@echo "... Subprograms.i"
-	@echo "... Subprograms.s"
 	@echo "... dht11.o"
 	@echo "... dht11.i"
 	@echo "... dht11.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sqlite/sqlite3.o"
-	@echo "... sqlite/sqlite3.i"
-	@echo "... sqlite/sqlite3.s"
 .PHONY : help
 
 

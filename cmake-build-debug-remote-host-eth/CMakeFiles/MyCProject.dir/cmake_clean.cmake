@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyCProject.dir/main.c.o"
   "CMakeFiles/MyCProject.dir/ModbusRtu.c.o"
-  "CMakeFiles/MyCProject.dir/Subprograms.c.o"
-  "CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o"
   "CMakeFiles/MyCProject.dir/dht11.c.o"
   "CMakeFiles/MyCProject.dir/Socket.c.o"
   "CMakeFiles/MyCProject.dir/Button.c.o"

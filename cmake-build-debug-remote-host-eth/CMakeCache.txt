@@ -184,6 +184,9 @@ MyCProject_SOURCE_DIR:STATIC=/home/pi/Public/MyCProject
 //Path to a library.
 MyModbus:FILEPATH=/usr/local/lib/libmodbus.so
 
+//Path to a library.
+Mysql:FILEPATH=/usr/local/lib/libbcm2835.a
+
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
