@@ -201,3 +201,14 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,c,clion,ssh
 /shelf/
+
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/1
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/2
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/3
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/4
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/5
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/6
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/7
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/8
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/9
+/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/count.txt
