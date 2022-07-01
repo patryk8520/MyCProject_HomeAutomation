@@ -17,47 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ef6895-012f-4512-ba32-f1a18766a438" name="Default Changelist" comment="### First commit&#10;- Learning github">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Button.c" beforeDir="false" afterPath="$PROJECT_DIR$/Button.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database.c" beforeDir="false" afterPath="$PROJECT_DIR$/Database.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Definitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Definitions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket.c" beforeDir="false" afterPath="$PROJECT_DIR$/Socket.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subprograms.c" beforeDir="false" afterPath="$PROJECT_DIR$/Subprograms.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/button.h" beforeDir="false" afterPath="$PROJECT_DIR$/button.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/3.7.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/3.7.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/3.7.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/3.7.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/3.7.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/3.7.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/Button.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/ModbusRtu.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/Socket.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/Subprograms.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/dht11.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/httpd.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/MyCProject.dir/sqlite/sqlite3.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-remote-host-eth/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="02ef6895-012f-4512-ba32-f1a18766a438" name="Default Changelist" comment="### Delete unused&#10;- Objects optimalization" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +32,18 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Database.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Definitions.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ModbusRtu.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/button.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dht11.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dht11.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/modbusRtu.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -273,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656355506727</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="### Delete unused&#10;- Objects optimalization">
+      <created>1656698591691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656698591691</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="### First commit&#10;- Learning github" />
-    <option name="LAST_COMMIT_MESSAGE" value="### First commit&#10;- Learning github" />
+    <MESSAGE value="### Delete unused&#10;- Objects optimalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="### Delete unused&#10;- Objects optimalization" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
